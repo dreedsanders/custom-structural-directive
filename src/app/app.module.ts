@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShowIfDirective } from './show-if.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowIfDirective
   ],
   imports: [
     BrowserModule,
